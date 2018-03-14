@@ -6,11 +6,11 @@ images do.
 
 The basic format is:
 
-HPM7
-# This is a comment
-3 2
-0.0 0.0 0.0	0.0 0.0 0.0	0.0 0.0 0.0
-0.0 0.0 0.0	0.0 0.0 0.0	0.0 0.0 0.0
+    HPM7
+    # This is a comment
+    3 2
+    0.0 0.0 0.0	0.0 0.0 0.0	0.0 0.0 0.0
+    0.0 0.0 0.0	0.0 0.0 0.0	0.0 0.0 0.0
 
 where HPM7 is the magic number,
 hashmarks introduce comments,
