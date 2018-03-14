@@ -49,7 +49,7 @@ int main(int argc, char** argv) {
 
 	uint16_t channels;
 	TIFFGetField(tif, TIFFTAG_SAMPLESPERPIXEL, &channels);
-	std::cout << "Channels: " << channels << newline;
+	//std::cout << "Channels: " << channels << newline;
 
 	uint16_t format;
 	TIFFGetField(tif, TIFFTAG_SAMPLEFORMAT, &format);
@@ -59,7 +59,7 @@ int main(int argc, char** argv) {
 
 	uint16_t samples;
 	TIFFGetField(tif, TIFFTAG_BITSPERSAMPLE, &samples);
-	std::cout << "Samples: " << samples << newline;
+	//std::cout << "Samples: " << samples << newline;
 	if(samples != 32) {
 		error("Only 32 bit float images are supported!");
 	}
