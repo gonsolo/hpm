@@ -1,3 +1,4 @@
 *.hpm
 *.tiff
-
+.DS_Store
+build

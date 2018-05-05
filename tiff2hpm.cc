@@ -79,9 +79,9 @@ int main(int argc, char** argv) {
 				//m = std::max(m, value);
 				//mi = std::min(mi, value);
 			}
-			for(int channel = 3; channel < channels; ++channel) {
-				float value = ((float*)buffer)[x*channels + channel];
-			}
+//            for(int channel = 3; channel < channels; ++channel) {
+//                float value = ((float*)buffer)[x*channels + channel];
+//            }
 		}
 	}
 	//std::cout << "Max: " << m << newline;
